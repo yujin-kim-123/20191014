@@ -1,0 +1,42 @@
+<!-- 회원가입
+아이디 중복허용X
+ -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./Resource/css/main.css" />
+<title>회원가입</title>
+</head>
+<body>
+
+	<!-- Form -->
+	<section>
+		<form method="post" action="./join.php">
+			<div class="row uniform 50%">
+				<div class="6u 12u$(xsmall)">
+					아이디 : <input type="text" name="ID" id="id" placeholder="ID" />
+				</div>
+				<div class="6u$ 12u$(xsmall)">
+					패스워드 : <input type="text" name="PASSWD" id="passwd" placeholder="PASSWORD" />
+				</div>
+				<div class="6u$ 12u$(xsmall)">
+					이름 : <input type="text" name="NAME" id="name" placeholder="NAME" />
+				</div>
+			</div>
+			<ul class="actions">
+				<li><a type="submit" class="button alt">확인</a></li>
+			</ul>
+		</form>
+	</section>
+
+
+	<!-- Scripts -->
+	<script src="./Resource/js/jquery.min.js"></script>
+	<script src="./Resource/js/jquery.scrolly.min.js"></script>
+	<script src="./Resource/js/skel.min.js"></script>
+	<script src="./Resource/js/util.js"></script>
+	<script src="./Resource/js/main.js"></script>
+</body>
+</html>

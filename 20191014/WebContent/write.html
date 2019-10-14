@@ -1,0 +1,43 @@
+<!-- 글쓰는 곳 -->
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./Resource/css/main.css" />
+<title>글쓰기</title>
+</head>
+<body>
+
+	<!-- Form -->
+	<section>
+		<form method="post" action="./write.php">
+			<div class="row uniform 50%">
+				
+				<div class="12u$">
+					<textarea name="TITLE" id="title"
+						placeholder="글 제목" rows="1"></textarea>
+				</div>
+				
+				<div class="12u$">
+					<textarea name="MESSAGE" id="message
+						placeholder="글 내용" rows="8"></textarea>
+				</div>
+				<div class="12u$">
+					<ul class="actions">
+						<li><a href="board.html"><input type="submit" value="입력완료" class="special" /></a></li>
+						<li><input type="reset" value="뒤로" onclick="history.back(-1);" /></li>
+					</ul>
+				</div>
+			</div>
+		</form>
+	</section>
+
+	<!-- Scripts -->
+	<script src="./Resource/js/jquery.min.js"></script>
+	<script src="./Resource/js/jquery.scrolly.min.js"></script>
+	<script src="./Resource/js/skel.min.js"></script>
+	<script src="./Resource/js/util.js"></script>
+	<script src="./Resource/js/main.js"></script>
+</body>
+</html>
